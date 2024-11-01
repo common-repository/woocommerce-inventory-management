@@ -1,0 +1,156 @@
+@media print {
+    @page {
+        page: 8.5in 11in;
+        margin: 50px 30px;
+        padding: 0;
+    }
+}
+.page-break {
+    clear:left;
+    display:block;
+    page-break-after:always;
+}
+body {
+    /* background-image:url(/wp-content/plugins/scanventory/assets/2sheet.jpg); */
+    background-size: 8.5in 11in;
+    width:8.5in;
+    height:11in;
+    margin: 0;
+    padding: 0;
+}
+.label-wrap {
+	padding:0px;
+	margin: 30px;
+	/*margin:0px;
+	padding-top:14mm;
+	padding-left:4mm;*/
+}
+.label-wrap:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.label {
+    float:left;
+    height:3.70in;
+    width:8in;
+    margin:0 0 0.05in 0;
+    padding:0px;
+    margin-right:3mm;
+    text-align:center;
+    overflow: hidden;
+    position:relative;
+	border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.qrcode {
+    height:4cm;
+    width:4cm;
+    padding:2mm;
+}
+.name {
+	position:absolute;
+	top:10mm;
+	left:5cm;
+	line-height:5mm;
+	font-size:1.4em;
+	font-weight:bold;
+	text-align:left;
+	font-family: "Arial", sans;
+}
+.sku {
+    position:absolute;
+    top:13mm;
+    left:5cm;
+    width:5cm;
+    line-height:1cm;
+    text-align:left;
+	font-family: "Arial", sans;
+}
+.variable {
+    clear:both;
+    position:absolute;
+    top:8.5cm;
+    left:1cm;
+    width:19cm;
+    text-align:left;
+	font-family: "Arial", sans;
+}
+.image {
+    width:200px;
+    margin:5mm;
+    margin-top:0mm;
+}
+.image img {
+    width:145px;
+    height:145px;
+    float:left;
+}
+.qrcode {
+    float: left;
+    max-width: 450px;
+}
+.label {
+    float: left;
+    overflow: hidden;
+    width: 100% !important;
+}
+.scan_in .name {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: bold;
+	line-height: 1;
+	position:inherit;
+}
+.scan_in .variable {
+    float: left;
+    max-width: 350px;
+    position: inherit;
+	margin-top: 18px;
+}
+.scan_in {
+    max-width:500px;
+    min-width: 450px;
+    float:left;
+    margin-left: 45px;
+}
+.scan_in .sku {
+    font-family: arial;
+    border-bottom: solid;
+    padding-bottom: 5px;
+	position: inherit;
+}
+.scan_in .name {
+    margin-top: 24px;
+    position: initial;
+}
+.scan_in .price {
+    font-family: arial;
+	text-align:left;
+}
+.pro_attr p {
+    background: black none repeat scroll 0 0;
+    border-radius: 5px;
+    color: white;
+    font-family: arial;
+    height: 22px;
+    padding: 2px;
+    text-align: center;
+    width: 160px;
+	padding-top: 7px;
+}
+.price label {
+    background: #ECECEC none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 163px;
+	font-weight: bold;
+}
+.variable .var-item > label {
+    background: #ECECEC none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 163px;
+	font-weight: bold;
+	margin-right: 10px;
+}

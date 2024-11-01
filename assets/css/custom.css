@@ -1,0 +1,20 @@
+table.log {
+    padding:20px;
+    width:100%;
+}
+
+table.log th {
+    border:1px solid #ccc;
+}
+
+table.log td.when {
+    text-align:center;
+}
+
+input.btn-vs {
+    font-size:10px;
+    padding:2px;
+    margin:2px;
+}
+
+table.log tr:nth-child(even) {background: #CCC}

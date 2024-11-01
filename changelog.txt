@@ -1,0 +1,37 @@
+*** Scanventory Pro Changelog ***
+2018-08-29 - version 1.1.1
+* Add	- Invoice Functionality added
+* Add	- Labels per page settings
+* Fix	- Remove pagination when print labels
+* Fix	- Remove use of deperated functions
+
+2018-07-11 - version 1.1.0
+* Add	- Generate label for product variations 
+* Fix	- Various code fixes
+
+2018-06-26 - version 1.0.9
+* Fix	- Design issue in mobile screen
+
+2017-06-29 - version 1.0.8
+* Fix	- Special characters issue.
+
+2016-08-11 - version 1.0.5
+* Fix	- Plugin URL issue.
+
+2016-06-29 - version 1.0.4
+* Fix	- Plugin not recognizing https (SSL) URLs.
+
+2016-04-13 - version 1.0.3
+* Fix	- Removed URL displayed in top of page.
+* Fix	- Image thumbnail when not displayed.
+* Fix	- Label layout issues.
+
+2016-04-07 - version 1.0.2
+* Tweak	- Switched to Google API for shortening product URLs.
+
+2016-04-03 - version 1.0.1
+* Add	- Added print button to the labels page. 
+* Fix	- Fixed double http in app.
+
+2016-03-24 - version 1.0.0
+* Initial Launch

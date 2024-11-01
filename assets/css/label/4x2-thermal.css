@@ -1,0 +1,65 @@
+@media print {
+    @page {
+        page: 4in 2in;
+        margin: 0;
+        padding:0;
+    }
+}
+
+.page-break {
+    clear:left;
+    display:block;
+    page-break-after:always;
+}
+body {
+    width: 11cm;
+    margin: 0;
+    padding: 0;
+}
+.label_wrap {
+    padding:0px;
+    margin:0px;
+}
+.label {
+    position:relative;
+    height:5cm;
+    width:11cm;
+    margin:0px;
+    padding:0px;
+    margin-bottom:2mm;
+    page-break-after:avoid;
+	border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+.qrcode {
+    position:relative;
+    height:4cm;
+    width:4cm;
+    padding:2mm;
+}
+.name {
+    position:absolute;
+    top:2mm;
+    left:5cm;
+    width:5cm;
+    line-height:5mm;
+    font-weight:bold;
+}
+.sku {
+    position:absolute;
+    top:1cm;
+    left:5cm;
+    width:5cm;
+    line-height:1cm;
+
+}
+.variable {
+    position:absolute;
+    top:2cm;
+    left:5cm;
+    width:5cm;
+}
+.image {
+    display:none;
+}

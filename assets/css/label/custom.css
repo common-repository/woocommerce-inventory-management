@@ -1,0 +1,68 @@
+.qrcode {
+    float: left;
+    max-width: 450px;
+}
+.label {
+    float: left;
+    overflow: hidden;
+    width: 100% !important;
+}
+.scan_in .name {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+	line-height: 1;
+	position:inherit;
+}
+.scan_in .variable {
+    float: left;
+    max-width: 350px;
+    position: inherit;
+	margin-top: 18px;
+}
+.scan_in {
+    max-width:500px;
+    min-width: 450px;
+    float:left;
+    margin-left: 45px;
+}
+.scan_in .sku {
+    font-family: arial;
+    border-bottom: solid;
+    padding-bottom: 5px;
+	position: inherit;
+}
+.scan_in .name {
+    margin-top: 24px;
+    position: initial;
+}
+.scan_in .price {
+    font-family: arial;
+	text-align:left;
+}
+.pro_attr p {
+    background: black none repeat scroll 0 0;
+    border-radius: 5px;
+    color: white;
+    font-family: arial;
+    height: 22px;
+    padding: 2px;
+    text-align: center;
+    width: 160px;
+	padding-top: 7px;
+}
+.price label {
+    background: #ECECEC none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 163px;
+	font-weight: bold;
+}
+.variable .var-item > label {
+    background: #ECECEC none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 163px;
+	font-weight: bold;
+	margin-right: 10px;
+}
